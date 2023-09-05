@@ -1,0 +1,84 @@
+body {
+  font-family: 'Shrikhand', cursive;
+  color: black;
+  margin: 50px 50px 0 50px;
+  background-color: #FBEAAB;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.logo{
+  width:20%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.taste{
+  color: #454545;
+}
+
+.tile-image{
+  height: 250px;
+  width: 400px;
+  float: left;
+  margin: 20px;
+  border: 1px solid #454545;
+}
+
+.card{
+  width: 50%;
+}
+
+.card-title{
+  color: #454545;
+}
+
+footer {
+  text-align: right;
+  color: #454545;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+@media (max-width: 920px)
+{
+.logo{
+  width: 60%;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.card{
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.card img{
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+  object-fit: cover;
+}
+
+.card-title{
+  color: #454545;
+}
+
+}
+
+
